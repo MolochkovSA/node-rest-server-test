@@ -1,0 +1,20 @@
+{
+  "name": "hello_world_api",
+  "version": "1.0.0",
+  "description": "test API for getting \"Hello World\"",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --no-cache"
+  },
+  "author": "Molochkov Sergey",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-async-errors": "^3.1.1",
+    "jest": "^28.1.3",
+    "joi": "^17.6.0",
+    "supertest": "^6.2.4"
+  }
+}
